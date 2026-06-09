@@ -1,16 +1,39 @@
-# React + Vite
+# 📒 Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and minimal note-taking web app built with React.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Create, edit, and delete notes
+- Search notes in real-time
+- Filter by category (Personal, Work, Study, Others)
+- Pin important notes to the top
+- Mark notes as favorite
+- Dark mode
+- Export & import notes as JSON
+- Data persisted in localStorage
+- Responsive — mobile drawer sidebar, desktop full sidebar
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React 18 + Vite
+- Font Awesome 6.5 (icons)
+- localStorage (data persistence)
+- Pure CSS-in-JS (no UI library)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+```bash
+git clone https://github.com/username/notes-app-react.git
+cd notes-app-react
+npm install
+npm run dev
+```
+
+## License
+
+MIT
